@@ -1,0 +1,22 @@
+/* CSS files add styling rules to your content */
+html, body { 
+  scroll-behavior:smooth; 
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+body {padding: 0; margin: 0; overflow:hidden;}
+body::-webkit-scrollbar { display: none; }
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+@font-face{
+    font-family:'west'; 
+    src: url('font/RioGrande.ttf');		
+}
+html{
+  font-family: "west";
+}
